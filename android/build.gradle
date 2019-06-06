@@ -34,5 +34,6 @@ dependencies {
     compile 'com.facebook.react:react-native:+'
     compile project(':my2c2psdk')
     implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
   
