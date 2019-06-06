@@ -1,25 +1,25 @@
-# react-native-greppy-2c2p-sdk
+# tusitupi-sdk
 
 A minimal react-native bridge to 2c2p sdk.
 
 ## Installation
 
-`$ npm install react-native-greppy-2c2p-sdk --save`
+`$ npm install tusitupi-sdk --save`
 
 or
 
-`$ yarn add react-native-greppy-2c2p-sdk`
+`$ yarn add tusitupi-sdk`
 
 ### Automatic Linking
 
-`$ react-native link react-native-greppy-2c2p-sdk`
+`$ react-native link tusitupi-sdk`
 
 ### Manual Linking
 
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-greppy-2c2p-sdk` and add `RNMy2c2pSdk.xcodeproj`
+2. Go to `node_modules` ➜ `tusitupi-sdk` and add `RNMy2c2pSdk.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNMy2c2pSdk.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
@@ -32,12 +32,12 @@ or
 
 2. Append the following lines to `android/settings.gradle`:
    ```
-   include ':react-native-greppy-2c2p-sdk'
-   project(':react-native-greppy-2c2p-sdk').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-greppy-2c2p-sdk/android')
+   include ':tusitupi-sdk'
+   project(':tusitupi-sdk').projectDir = new File(rootProject.projectDir, 	'../node_modules/tusitupi-sdk/android')
    ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
    ```
-   compile project(':react-native-greppy-2c2p-sdk')
+   compile project(':tusitupi-sdk')
    ```
 
 ### Setup My2c2pSDK
@@ -99,7 +99,7 @@ Add `pod 'my2c2pSDK'` to the ios/Podfile and run `pod install`.
 
 ```javascript
 import React, { Component } from 'react';
-import My2c2pSDK from 'react-native-greppy-2c2p-sdk';
+import My2c2pSDK from 'tusitupi-sdk';
 import { ScrollView, TouchableHighlight, Text, StyleSheet } from 'react-native';
 ...
 
