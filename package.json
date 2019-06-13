@@ -1,6 +1,6 @@
 {
   "name": "tusitupi-sdk",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "React Native Bridge to 2c2p SDK",
   "main": "index.js",
   "keywords": [
